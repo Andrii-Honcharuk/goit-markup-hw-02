@@ -15,20 +15,6 @@ a {
   text-decoration: none;
 }
 
-/* .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-} */
-
 body {
   background-color: #ffffff;
   color: #434455;
@@ -41,7 +27,7 @@ body {
 
 .header-logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -135,12 +121,15 @@ body {
   text-align: center;
 
   /* Header 2 */
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+.persons-card {
+  background-color: #ffffff;
 }
 .persons-team {
   color: #2e2f42;
