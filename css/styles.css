@@ -103,6 +103,11 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   line-height: 1.5;
 }
+.hero-button:focus,
+.hero-button:hover {
+  cursor: pointer;
+}
+
 .title-advantages {
   color: var(--navyblue);
 
